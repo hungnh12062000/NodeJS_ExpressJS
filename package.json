@@ -1,0 +1,31 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungnh12062000/NodeJS_ExpressJS_F8.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "F8"
+  ],
+  "author": "haihung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hungnh12062000/NodeJS_ExpressJS_F8/issues"
+  },
+  "homepage": "https://github.com/hungnh12062000/NodeJS_ExpressJS_F8#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
