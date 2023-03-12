@@ -6,7 +6,8 @@
   "scripts": {
     "beautiful": "lint-staged",
     "start": "nodemon --inspect src/index.js",
-    "scss": "node-sass --watch src/resources/scss/ -o src/public/css/"
+    "scss": "node-sass --watch src/resources/scss/ -o src/public/css/",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -26,8 +27,8 @@
   "lint-staged": {
     "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
   },
-  "husky": {
-    "hooks": {
+  "husky" : {
+    "hooks":{
       "pre-commit": "lint-staged"
     }
   },
