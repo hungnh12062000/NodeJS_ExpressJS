@@ -1,15 +1,15 @@
-@import "./variables";
+@import './variables';
 
 h1 {
-  font-size: 15px;
-  color: $red-color;
-  font-weight: 600;
-  text-decoration: none;
-  font-style: italic;
+    font-size: 15px;
+    color: $red-color;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: italic;
 }
 
-.search-form {
-  border-radius: 0.25rem;
-  border: 1px solid #ccc;
-  padding: 15px;
-}
+            .search-form {
+                border-radius: 0.25rem;
+                border: 1px solid #ccc;
+                padding: 15px;
+            }
