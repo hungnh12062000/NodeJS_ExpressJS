@@ -1,0 +1,9 @@
+@import "./variables";
+
+h1 {
+  font-size: 15px;
+  color: $red-color;
+  font-weight: 600;
+  text-decoration: none;
+  font-style: italic;
+}
